@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Livebook</Name>
+  <Repository>livebook/livebook</Repository>
+  <Registry>https://hub.docker.com/r/livebook/livebook</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://livebook.dev/</Project>
+  <Overview>Livebook is a web application for writing interactive and collaborative code notebooks for Elixir</Overview>
+  <Category>Tools: Status:Beta</Category>
+  <WebUI>http://[IP]:[PORT:8080]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/dylan-hoefsloot/unraid-livebook-template/main/logo.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1639098375</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="PORT" Target="8080" Default="8080" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">8787</Config>
+  <Config Name="DATA" Target="/data" Default="" Mode="rw" Description="Where livebook will save notebooks" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/livebook</Config>
+  <Config Name="PASSWORD" Target="LIVEBOOK_PASSWORD" Default="" Mode="" Description="Password needed to access livebook (must be at least 12 characters)" Type="Variable" Display="always" Required="true" Mask="true">livebookiscool</Config>
+</Container>
