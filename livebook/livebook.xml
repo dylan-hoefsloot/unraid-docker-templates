@@ -13,7 +13,7 @@
   <Category>Tools: Status:Beta</Category>
   <WebUI>http://[IP]:[PORT:8080]</WebUI>
   <TemplateURL/>
-  <Icon>https://raw.githubusercontent.com/dylan-hoefsloot/unraid-livebook-template/main/logo.png</Icon>
+  <Icon>https://github.com/dylan-hoefsloot/unraid-docker-templates/raw/main/livebook/logo.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
