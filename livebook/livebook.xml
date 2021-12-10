@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/117051-support-worseforwear-docker-templates/</Support>
   <Project>https://livebook.dev/</Project>
   <Overview>Livebook is a web application for writing interactive and collaborative code notebooks for Elixir</Overview>
   <Category>Tools: Status:Beta</Category>
@@ -17,7 +17,7 @@
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1639098375</DateInstalled>
+  <DateInstalled/>
   <DonateText/>
   <DonateLink/>
   <Requires/>
@@ -25,3 +25,9 @@
   <Config Name="DATA" Target="/data" Default="" Mode="rw" Description="Where livebook will save notebooks" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/livebook</Config>
   <Config Name="PASSWORD" Target="LIVEBOOK_PASSWORD" Default="" Mode="" Description="Password needed to access livebook (must be at least 12 characters)" Type="Variable" Display="always" Required="true" Mask="true">livebookiscool</Config>
 </Container>
+<Maintainer>
+  <Icon>https://avatars.githubusercontent.com/dylan-hoefsloot</Icon>
+  <Profile>
+    Creating minimal docker templates for my most used applications
+  </Profile>
+</Maintainer>
